@@ -1,0 +1,36 @@
+[
+    {
+        "sourceTemplatePath": "C:\\sid\\git\\repos\\serverless-project-template-master\\user-service\\templates\\[domain]-fn-[op]",
+        "destinationPath": "C:\\sid\\git\\repos\\serverless-project-template-master\\user-service",
+        "tokens": [
+            {
+                "name": "domain",
+                "value": "user"
+            },
+            {
+                "name": "domainp",
+                "value": "User"
+            },
+            {
+                "name": "op",
+                "value": "list"
+            },
+            {
+                "name": "dbop",
+                "value": "find"
+            },
+            {
+                "name": "dbname",
+                "value": "userdb"
+            },
+            {
+                "name": "modelmembersbo",
+                "value": "        \"firstName\":\"string\",\n        \"lastName\":\"string\",\n        \"email\":\"string\"\n"
+            },
+            {
+                "name": "modelmembersdto",
+                "value": "        \"name\":\"string\",\n        \"email\":\"string\"\n"
+            }
+        ]
+    }
+]
